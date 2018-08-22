@@ -1,7 +1,6 @@
 package norainu2;
 
 import java.util.ArrayList;
-import java.util.Collection;
 
 public class ArrayListie<E> extends ArrayList<E> {
 
@@ -9,13 +8,13 @@ public class ArrayListie<E> extends ArrayList<E> {
 		super();
 	}
 
-	public ArrayListie(Collection<E> c) {
-		super(c);
-	}
-
-	public ArrayListie(int i) {
-		super(i);
-	}
+	//	public ArrayListie(Collection<E> c) {
+	//		super(c);
+	//	}
+	//
+	//	public ArrayListie(int i) {
+	//		super(i);
+	//	}
 
 	public ArrayList<E> map2(mapProcedure<E> proc) {
 		ArrayList<E> r_ = new ArrayList<>();
